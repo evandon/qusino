@@ -57,7 +57,7 @@
 | Auth | Public-key + 2FA (.com) |
 | Admin | KYC, token minting, user impersonation |
 | Edge | **Cloudflare Workers** (geo-routing) |
-| Blockchain | **QUBIC-only** (Rust smart contracts, computors for RNG) |
+| Blockchain | **QUBIC-only** (smart contracts, computors for RNG) |
 
 > **No cross-chain interoperability. All assets, logic, and execution are 100% native to QUBIC.**
 

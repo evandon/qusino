@@ -4,10 +4,10 @@ import { list } from "../components/list.js"
 
 // main header //
 
-export const top = (logo,li) => /*html*/`
+export const top = (li) => /*html*/`
         <header id="top_header">
             <div class='logo'>
-                ${logo}
+                QUSINO
             </div>
             ${nav(list(li))}
             <div id="account" class="account" >
