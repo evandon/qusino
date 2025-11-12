@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.js" integrity="sha384-ezjq8118wdwdRMj+nX4bevEi+cDLTbhLAeFF688VK8tPDGeLUe0WoY2MZtSla72F" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/htmx.org/dist/ext/loading.js"></script>
+        <link href="/public/assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Qusino - Play. Vote. Build. Own. Win!</title>
+        
+    </head>
+    <body>
+        <div id ='container'>
+            
+            <main>
+
+            </main>
+            <footer>
+
+            </footer>     
+        </div>
+    </body>
+</html>

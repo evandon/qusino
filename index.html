@@ -1,29 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.js" integrity="sha384-ezjq8118wdwdRMj+nX4bevEi+cDLTbhLAeFF688VK8tPDGeLUe0WoY2MZtSla72F" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/htmx.org/dist/ext/loading.js"></script>
-        <link href="/public/assets/css/style.css" rel="stylesheet" type="text/css"/>
-        <title>Qusino - Play. Vote. Build. Own. Win!</title>
-        
-    </head>
-    <body>
-        <div id ='container'>
-            <header 
-                hx-get="/header" 
-                hx-trigger="load" 
-                hx-target="this"
-                hx-swap="outerHTML"
-            >
-                <!-- Load header -->
-            </header>
-            <main>
-
-            </main>
-            <footer>
-
-            </footer>     
-        </div>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>qusino.new</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
