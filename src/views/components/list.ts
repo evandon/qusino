@@ -1,4 +1,4 @@
-import type { Link } from "../../models/guest_links"
+import type { Link } from "../../../api/models/guest_links"
 
 export const list = (arr:Link[])=>/*html*/`
     <ul id="nav_list">

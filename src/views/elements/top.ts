@@ -1,7 +1,7 @@
 import { lock } from "../components/svg/lock.ts"
 import {nav } from "../components/nav.ts"
 import { list } from "../components/list.ts"
-import type { Link } from "../../models/guest_links.ts"
+import type { Link } from "../../../api/models/guest_links.ts"
 
 
 // main header //

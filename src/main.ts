@@ -19,7 +19,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/`
   hx-target="#header" 
   hx-swap="outerHTML"
 >
-  
+  Hello Dude
 </header>
 </div>
 `
