@@ -7,19 +7,7 @@ import '../src/lib/htmx_global'
 // import { guest_links } from './models/guest_links'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/`
-<div 
-  id="app" 
-  hx-get="/" 
-  hx-target="#app" 
-  hx-swap="innerHTML">
-<!-- Site content-->
-<header
-  id="header" 
-  hx-get="/top_header" 
-  hx-target="#header" 
-  hx-swap="outerHTML"
->
-  Hello Dude
-</header>
+<div>
+qusino
 </div>
 `
